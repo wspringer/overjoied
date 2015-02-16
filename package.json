@@ -12,5 +12,8 @@
     "duck"
   ],
   "author": "Wilfred Springer",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^5.1.0"
+  }
 }
