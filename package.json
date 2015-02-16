@@ -4,7 +4,8 @@
   "description": "Joi for function signatures",
   "main": "lib/index.js",
   "scripts": {
-    "watch": "mocha --watch -C  --compilers coffee:coffee-script/register"
+    "watch": "mocha --watch -C --compilers coffee:coffee-script/register",
+    "test": "mocha -C --compilers coffee:coffee-script/register"
   },
   "keywords": [
     "hapi",
