@@ -1,0 +1,16 @@
+{
+  "name": "stinky",
+  "version": "0.1.0",
+  "description": "Joi for function signatures",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi",
+    "joi",
+    "duck"
+  ],
+  "author": "Wilfred Springer",
+  "license": "ISC"
+}
