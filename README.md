@@ -4,6 +4,8 @@ If we're using Joi all over the place for doing validations of our objects, then
 
 This stuff is experimental. Don't use this for production.
 
+## Why
+
 Before anything else, **Overjoied** is just **Joi**, with some extras. The extra bit is has allows you to express additional expectations on the types of the function's arguments.
 
 ```javascript
@@ -20,7 +22,9 @@ Now, with JavaScript's dynamic nature, we obviously cannot check up front if an 
 
 And that's *exactly* what **Overjoied** is doing: by adding the `params(…)` method, you can guarantee that the object getting returned by the `Joi.validate(…)` method has an `increaseBy(…)` method that checks if the first argument is numeric. 
 
-So, in summary: **Overjoied** is just like **Joi**, with one extra feature: if `params()` is called on a `func()`, then **Overjoied** will cause the validated object to have assertions for all the parameter specifications you passed in.
+## So, what is it?
+
+In summary: **Overjoied** is just like **Joi**, with one extra feature: if `params()` is called on a `func()`, then **Overjoied** will cause the validated object to have assertions for all the parameter specifications you passed in.
 
 So if this is your schema:
 
