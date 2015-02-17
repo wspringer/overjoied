@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "watch": "mocha --watch -C --compilers coffee:coffee-script/register",
-    "test": "mocha -C --compilers coffee:coffee-script/register"
+    "test": "mocha -C --compilers coffee:coffee-script/register",
+    "prepublish": "coffee -o lib -c src/*.coffee"
   },
   "keywords": [
     "hapi",
